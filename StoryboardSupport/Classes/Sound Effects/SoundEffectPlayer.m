@@ -24,11 +24,11 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         sharedPlayer = [[SoundEffectPlayer alloc] init];
-//        sharedPlayer.systemSoundIds = [@{} mutableCopy];
     });
     return sharedPlayer;
 }
 
+// Even if 
 - (NSMutableDictionary *)systemSoundIds
 {
     if (!_systemSoundIds) {
@@ -71,12 +71,6 @@ static void completionCallback (SystemSoundID  mySSID, void *myself)
 {
     SoundEffectPlayer *thisInstance = (__bridge SoundEffectPlayer *)myself;
     thisInstance.playingSound = NO;
-}
-
-- (IBAction)playSound
-{
-    [self playSoundNamed:@"sound-swipe" fileExtension:@"aif"];
-    NSLog(@"Playing sound");
 }
 
 

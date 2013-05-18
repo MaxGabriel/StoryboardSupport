@@ -25,7 +25,5 @@
  */
 - (void)playSoundNamed:(NSString *)fileName fileExtension:(NSString *)extension;
 
-- (IBAction)playSound;
-
 
 @end
