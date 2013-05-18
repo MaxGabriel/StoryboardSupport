@@ -13,7 +13,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8D9-oi-1FY">
-                                <rect key="frame" x="204" y="149" width="73" height="44"/>
+                                <rect key="frame" x="206" y="149" width="73" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Button">
@@ -338,26 +338,6 @@
             <point key="canvasLocation" x="1767" y="368"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="SoundEffectPlayer" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SoundEffectPlayer.h"/>
-            <relationships>
-                <relationship kind="action" name="playSound"/>
-            </relationships>
-        </class>
-        <class className="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UIViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="backButton"/>
-                <relationship kind="action" name="dismissModal"/>
-                <relationship kind="action" name="popToRootViewController"/>
-                <relationship kind="action" name="toggleViewControllers:"/>
-            </relationships>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
