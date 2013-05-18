@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-/** Extensions to `UIStoryboard` to make all possible attempts to access a Storyboard */
+/** Extensions to `UIStoryboard` to make all possible attempts to access a Storyboard. */
 @interface UIStoryboard (MainStoryboard)
 
 /** Returns the storyboard specified in the App's info.plist file. This value can also be set from by selecting your Project in the file navigator > Select your target > Select the Summary tab > set the storyboard files for iPhone and/or iPad.
