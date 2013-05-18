@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		501301781737663B0064AEAB /* Junction.otf in Resources */ = {isa = PBXBuildFile; fileRef = 501301771737663B0064AEAB /* Junction.otf */; };
+		5013017A1737673F0064AEAB /* Raleway Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 501301791737673F0064AEAB /* Raleway Thin.otf */; };
+		5013017C173767DD0064AEAB /* Fanwood.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5013017B173767DD0064AEAB /* Fanwood.otf */; };
+		501301AD17376CFE0064AEAB /* sound-swipe.aif in Resources */ = {isa = PBXBuildFile; fileRef = 501301AC17376CFE0064AEAB /* sound-swipe.aif */; };
 		50182FE717356A7500C9EA0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50182FE617356A7500C9EA0A /* UIKit.framework */; };
 		50182FE917356A7500C9EA0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50182FE817356A7500C9EA0A /* Foundation.framework */; };
 		50182FEB17356A7500C9EA0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50182FEA17356A7500C9EA0A /* CoreGraphics.framework */; };
@@ -24,6 +28,17 @@
 		5018301017356A7500C9EA0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50182FE817356A7500C9EA0A /* Foundation.framework */; };
 		5018301817356A7500C9EA0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5018301617356A7500C9EA0A /* InfoPlist.strings */; };
 		5018301B17356A7500C9EA0A /* StoryboardSupportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5018301A17356A7500C9EA0A /* StoryboardSupportTests.m */; };
+		5018302A1735B9B400C9EA0A /* UIViewController+StoryboardActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 501830291735B9B400C9EA0A /* UIViewController+StoryboardActions.m */; };
+		501830321735BB4B00C9EA0A /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 5018302D1735BB4B00C9EA0A /* UIButton+TCCustomFont.m */; };
+		501830331735BB4B00C9EA0A /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 5018302F1735BB4B00C9EA0A /* UILabel+TCCustomFont.m */; };
+		501830341735BB4B00C9EA0A /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 501830311735BB4B00C9EA0A /* UITextField+TCCustomFont.m */; };
+		501830361735BB8900C9EA0A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501830351735BB8900C9EA0A /* QuartzCore.framework */; };
+		5018303A1735BCA500C9EA0A /* SoundEffectPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 501830391735BCA500C9EA0A /* SoundEffectPlayer.m */; };
+		5018303F1735EA1F00C9EA0A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5018303E1735EA1F00C9EA0A /* AudioToolbox.framework */; };
+		50B9800F1735F11D00C7ECBD /* GoudyBookletter1911.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50B9800E1735F11D00C7ECBD /* GoudyBookletter1911.otf */; };
+		50B9801217362C5D00C7ECBD /* UIViewController+Toggle.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B9801117362C5D00C7ECBD /* UIViewController+Toggle.m */; };
+		50B980471736DCC900C7ECBD /* UIStoryboard+MainStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B980461736DCC900C7ECBD /* UIStoryboard+MainStoryboard.m */; };
+		50B9804C1736FC9400C7ECBD /* UITextView+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B9804B1736FC9400C7ECBD /* UITextView+TCCustomFont.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		501301771737663B0064AEAB /* Junction.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Junction.otf; sourceTree = "<group>"; };
+		501301791737673F0064AEAB /* Raleway Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway Thin.otf"; sourceTree = "<group>"; };
+		5013017B173767DD0064AEAB /* Fanwood.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fanwood.otf; sourceTree = "<group>"; };
+		501301AC17376CFE0064AEAB /* sound-swipe.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sound-swipe.aif"; sourceTree = "<group>"; };
 		50182FE317356A7500C9EA0A /* StoryboardSupport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardSupport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50182FE617356A7500C9EA0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		50182FE817356A7500C9EA0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,6 +79,25 @@
 		5018301717356A7500C9EA0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5018301917356A7500C9EA0A /* StoryboardSupportTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoryboardSupportTests.h; sourceTree = "<group>"; };
 		5018301A17356A7500C9EA0A /* StoryboardSupportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardSupportTests.m; sourceTree = "<group>"; };
+		501830281735B9B400C9EA0A /* UIViewController+StoryboardActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+StoryboardActions.h"; sourceTree = "<group>"; };
+		501830291735B9B400C9EA0A /* UIViewController+StoryboardActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+StoryboardActions.m"; sourceTree = "<group>"; };
+		5018302C1735BB4B00C9EA0A /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
+		5018302D1735BB4B00C9EA0A /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
+		5018302E1735BB4B00C9EA0A /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
+		5018302F1735BB4B00C9EA0A /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
+		501830301735BB4B00C9EA0A /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
+		501830311735BB4B00C9EA0A /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
+		501830351735BB8900C9EA0A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		501830381735BCA500C9EA0A /* SoundEffectPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEffectPlayer.h; sourceTree = "<group>"; };
+		501830391735BCA500C9EA0A /* SoundEffectPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEffectPlayer.m; sourceTree = "<group>"; };
+		5018303E1735EA1F00C9EA0A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		50B9800E1735F11D00C7ECBD /* GoudyBookletter1911.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GoudyBookletter1911.otf; sourceTree = "<group>"; };
+		50B9801017362C5C00C7ECBD /* UIViewController+Toggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Toggle.h"; sourceTree = "<group>"; };
+		50B9801117362C5D00C7ECBD /* UIViewController+Toggle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Toggle.m"; sourceTree = "<group>"; };
+		50B980451736DCC900C7ECBD /* UIStoryboard+MainStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+MainStoryboard.h"; sourceTree = "<group>"; };
+		50B980461736DCC900C7ECBD /* UIStoryboard+MainStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+MainStoryboard.m"; sourceTree = "<group>"; };
+		50B9804A1736FC9400C7ECBD /* UITextView+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+TCCustomFont.h"; sourceTree = "<group>"; };
+		50B9804B1736FC9400C7ECBD /* UITextView+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TCCustomFont.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +105,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5018303F1735EA1F00C9EA0A /* AudioToolbox.framework in Frameworks */,
+				501830361735BB8900C9EA0A /* QuartzCore.framework in Frameworks */,
 				50182FE717356A7500C9EA0A /* UIKit.framework in Frameworks */,
 				50182FE917356A7500C9EA0A /* Foundation.framework in Frameworks */,
 				50182FEB17356A7500C9EA0A /* CoreGraphics.framework in Frameworks */,
@@ -108,6 +148,8 @@
 		50182FE517356A7500C9EA0A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5018303E1735EA1F00C9EA0A /* AudioToolbox.framework */,
+				501830351735BB8900C9EA0A /* QuartzCore.framework */,
 				50182FE617356A7500C9EA0A /* UIKit.framework */,
 				50182FE817356A7500C9EA0A /* Foundation.framework */,
 				50182FEA17356A7500C9EA0A /* CoreGraphics.framework */,
@@ -119,12 +161,15 @@
 		50182FEC17356A7500C9EA0A /* StoryboardSupport */ = {
 			isa = PBXGroup;
 			children = (
+				50B9800D1735F10600C7ECBD /* Resources */,
 				50182FF517356A7500C9EA0A /* AppDelegate.h */,
 				50182FF617356A7500C9EA0A /* AppDelegate.m */,
 				50182FFE17356A7500C9EA0A /* MainStoryboard_iPhone.storyboard */,
 				5018300117356A7500C9EA0A /* MainStoryboard_iPad.storyboard */,
 				5018300417356A7500C9EA0A /* ViewController.h */,
 				5018300517356A7500C9EA0A /* ViewController.m */,
+				501830371735BC7300C9EA0A /* Sound Effects */,
+				501830271735B99800C9EA0A /* Categories */,
 				50182FED17356A7500C9EA0A /* Supporting Files */,
 			);
 			path = StoryboardSupport;
@@ -161,6 +206,56 @@
 				5018301617356A7500C9EA0A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		501830271735B99800C9EA0A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				501830281735B9B400C9EA0A /* UIViewController+StoryboardActions.h */,
+				501830291735B9B400C9EA0A /* UIViewController+StoryboardActions.m */,
+				50B9801017362C5C00C7ECBD /* UIViewController+Toggle.h */,
+				50B9801117362C5D00C7ECBD /* UIViewController+Toggle.m */,
+				5018302B1735BB2E00C9EA0A /* Custom Font Storyboard Support */,
+				50B980451736DCC900C7ECBD /* UIStoryboard+MainStoryboard.h */,
+				50B980461736DCC900C7ECBD /* UIStoryboard+MainStoryboard.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		5018302B1735BB2E00C9EA0A /* Custom Font Storyboard Support */ = {
+			isa = PBXGroup;
+			children = (
+				5018302C1735BB4B00C9EA0A /* UIButton+TCCustomFont.h */,
+				5018302D1735BB4B00C9EA0A /* UIButton+TCCustomFont.m */,
+				5018302E1735BB4B00C9EA0A /* UILabel+TCCustomFont.h */,
+				5018302F1735BB4B00C9EA0A /* UILabel+TCCustomFont.m */,
+				501830301735BB4B00C9EA0A /* UITextField+TCCustomFont.h */,
+				501830311735BB4B00C9EA0A /* UITextField+TCCustomFont.m */,
+				50B9804A1736FC9400C7ECBD /* UITextView+TCCustomFont.h */,
+				50B9804B1736FC9400C7ECBD /* UITextView+TCCustomFont.m */,
+			);
+			name = "Custom Font Storyboard Support";
+			sourceTree = "<group>";
+		};
+		501830371735BC7300C9EA0A /* Sound Effects */ = {
+			isa = PBXGroup;
+			children = (
+				501830381735BCA500C9EA0A /* SoundEffectPlayer.h */,
+				501830391735BCA500C9EA0A /* SoundEffectPlayer.m */,
+			);
+			path = "Sound Effects";
+			sourceTree = "<group>";
+		};
+		50B9800D1735F10600C7ECBD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				501301AC17376CFE0064AEAB /* sound-swipe.aif */,
+				50B9800E1735F11D00C7ECBD /* GoudyBookletter1911.otf */,
+				501301771737663B0064AEAB /* Junction.otf */,
+				5013017B173767DD0064AEAB /* Fanwood.otf */,
+				501301791737673F0064AEAB /* Raleway Thin.otf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +335,11 @@
 				50182FFD17356A7500C9EA0A /* Default-568h@2x.png in Resources */,
 				5018300017356A7500C9EA0A /* MainStoryboard_iPhone.storyboard in Resources */,
 				5018300317356A7500C9EA0A /* MainStoryboard_iPad.storyboard in Resources */,
+				50B9800F1735F11D00C7ECBD /* GoudyBookletter1911.otf in Resources */,
+				501301781737663B0064AEAB /* Junction.otf in Resources */,
+				5013017A1737673F0064AEAB /* Raleway Thin.otf in Resources */,
+				5013017C173767DD0064AEAB /* Fanwood.otf in Resources */,
+				501301AD17376CFE0064AEAB /* sound-swipe.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +377,14 @@
 				50182FF317356A7500C9EA0A /* main.m in Sources */,
 				50182FF717356A7500C9EA0A /* AppDelegate.m in Sources */,
 				5018300617356A7500C9EA0A /* ViewController.m in Sources */,
+				5018302A1735B9B400C9EA0A /* UIViewController+StoryboardActions.m in Sources */,
+				501830321735BB4B00C9EA0A /* UIButton+TCCustomFont.m in Sources */,
+				501830331735BB4B00C9EA0A /* UILabel+TCCustomFont.m in Sources */,
+				501830341735BB4B00C9EA0A /* UITextField+TCCustomFont.m in Sources */,
+				5018303A1735BCA500C9EA0A /* SoundEffectPlayer.m in Sources */,
+				50B9801217362C5D00C7ECBD /* UIViewController+Toggle.m in Sources */,
+				50B980471736DCC900C7ECBD /* UIStoryboard+MainStoryboard.m in Sources */,
+				50B9804C1736FC9400C7ECBD /* UITextView+TCCustomFont.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +575,7 @@
 				5018302017356A7500C9EA0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5018302117356A7500C9EA0A /* Build configuration list for PBXNativeTarget "StoryboardSupportTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +584,7 @@
 				5018302317356A7500C9EA0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

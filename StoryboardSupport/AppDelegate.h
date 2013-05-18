@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+/** The AppDelegate allows you to respond to events like your application starting up, being interrupted by a text message, etc. */
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

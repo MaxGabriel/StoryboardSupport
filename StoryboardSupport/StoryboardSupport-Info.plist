@@ -45,5 +45,12 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>GoudyBookletter1911.otf</string>
+		<string>Junction.otf</string>
+		<string>Raleway Thin.otf</string>
+		<string>Fanwood.otf</string>
+	</array>
 </dict>
 </plist>
