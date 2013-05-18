@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name         = "StoryboardSupport"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Utilities to make prototyping with Storyboards easier, created for designers."
   s.description  = <<-DESC
                     Utilities include:
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.license      = 'MIT'
   s.author       = { "Maximilian Tagher" => "feedback.tagher@gmail.com" }
-  s.source       = { :git => "https://github.com/MaxGabriel/StoryboardSupport.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/MaxGabriel/StoryboardSupport.git", :tag => "0.0.3" }
   s.platform     = :ios, '5.0' # Correct minimum platform?
 
   # A list of file patterns which select the source files that should be
