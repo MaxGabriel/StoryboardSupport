@@ -27,8 +27,7 @@ Pod::Spec.new do |s|
   # added to the Pods project. If the pattern is a directory then the
   # path will automatically have '*.{h,m,mm,c,cpp}' appended.
   #
-  s.source_files = 'Classes', 'Classes/**/*.{h,m}'
-  s.exclude_files = 'Classes/Exclude'
+  s.source_files = 'StoryboardSupport/Classes', 'StoryboardSupport/Classes/**/*.{h,m}'
 
   # A list of file patterns which select the header files that should be
   # made available to the application. If the pattern is a directory then the

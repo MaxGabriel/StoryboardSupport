@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-#warning Need to add documentation for adding a custom font..
-
 /** Adds support for setting a custom font from a Storyboard. In the Storyboard, choose the `UIButton`, go to its Identity Inspector, and setup the User Defined Runtime Attributes as follows:
  Key Path = fontName
  Type = String
