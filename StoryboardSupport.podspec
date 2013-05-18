@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.license      = 'MIT'
   s.author       = { "Maximilian Tagher" => "feedback.tagher@gmail.com" }
-  s.source       = { :git => "https://github.com/MaxGabriel/StoryboardSupport.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/MaxGabriel/StoryboardSupport.git", :tag => "0.0.2" }
   s.platform     = :ios, '5.0' # Correct minimum platform?
 
   # A list of file patterns which select the source files that should be
