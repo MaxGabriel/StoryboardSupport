@@ -58,7 +58,7 @@
             NSAssert(NO, @"There wasn't a sound file");
         }
     } else {
-        audioEffect = [systemSoundID unsignedLongValue];
+        audioEffect = [systemSoundID unsignedIntValue];
     }
     
     if (!self.isPlayingSound) {
