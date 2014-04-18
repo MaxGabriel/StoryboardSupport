@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "StoryboardSupport"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "Utilities to make prototyping with Storyboards easier, created for designers."
   s.description  = <<-DESC
                     Utilities include:
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/MaxGabriel/StoryboardSupport"
   s.license      = 'MIT'
   s.author       = { "Maximilian Tagher" => "feedback.tagher@gmail.com" }
-  s.source       = { :git => "https://github.com/MaxGabriel/StoryboardSupport.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/MaxGabriel/StoryboardSupport.git", :tag => "0.0.4" }
   s.platform     = :ios, '5.0'
   s.source_files = 'StoryboardSupport/Classes', 'StoryboardSupport/Classes/**/*.{h,m}'
   s.frameworks = 'AudioToolbox', 'QuartzCore'
