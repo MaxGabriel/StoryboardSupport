@@ -4,9 +4,9 @@
 Installation
 -------------
 
-###Cocoapods
+###CocoaPods
 
-[Cocoapods](http://cocoapods.org/) is the recommended installation method. By using Cocoapods, you can automatically get updates to StoryboardSupport.
+[CocoaPods](http://cocoapods.org/) is the recommended installation method. By using CocoaPods, you can automatically get updates to StoryboardSupport.
 
 1. Install CocoaPods. From the Terminal:
 ```sh
